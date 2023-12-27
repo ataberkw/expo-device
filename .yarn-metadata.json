@@ -1,0 +1,64 @@
+{
+  "manifest": {
+    "name": "expo-device",
+    "version": "4.0.3",
+    "description": "A universal module that gets physical information about the device running the application",
+    "main": "build/Device.js",
+    "types": "build/Device.d.ts",
+    "scripts": {
+      "build": "expo-module build",
+      "clean": "expo-module clean",
+      "lint": "expo-module lint",
+      "test": "expo-module test",
+      "prepare": "expo-module prepare",
+      "prepublishOnly": "expo-module prepublishOnly",
+      "expo-module": "expo-module"
+    },
+    "keywords": [
+      "react-native",
+      "expo",
+      "expo-device"
+    ],
+    "jest": {
+      "preset": "expo-module-scripts"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/expo/expo.git",
+      "directory": "packages/expo-device"
+    },
+    "bugs": {
+      "url": "https://github.com/expo/expo/issues"
+    },
+    "author": {
+      "name": "650 Industries, Inc."
+    },
+    "license": "MIT",
+    "homepage": "https://docs.expo.dev/versions/latest/sdk/device/",
+    "dependencies": {
+      "expo-modules-core": "~0.4.4",
+      "ua-parser-js": "^0.7.19"
+    },
+    "devDependencies": {
+      "expo-module-scripts": "^2.0.0"
+    },
+    "gitHead": "4fa0497a180ae707fa860cb03858630ab7af19f4",
+    "_registry": "npm",
+    "_loc": "/Users/ataberkw/Library/Caches/Yarn/v6/npm-expo-device-4.0.3-da2229f1e5a38c795c9b8a023e65d520d327d4e5-integrity/node_modules/expo-device/package.json",
+    "readmeFilename": "README.md",
+    "readme": "# expo-device\n\nProvides specific information about the device running the application.\n\n# API documentation\n\n- [Documentation for the master branch](https://github.com/expo/expo/blob/master/docs/pages/versions/unversioned/sdk/device.md)\n- [Documentation for the latest stable release](https://docs.expo.io/versions/latest/sdk/device/)\n\n# Installation in managed Expo projects\n\nFor managed [managed](https://docs.expo.io/versions/latest/introduction/managed-vs-bare/) Expo projects, please follow the installation instructions in the [API documentation for the latest stable release](https://docs.expo.io/versions/latest/sdk/device/).\n\n# Installation in bare React Native projects\n\nFor bare React Native projects, you must ensure that you have [installed and configured the `react-native-unimodules` package](https://github.com/expo/expo/tree/master/packages/react-native-unimodules) before continuing.\n\n### Add the package to your npm dependencies\n\n```\nexpo install expo-device\n```\n\n# Contributing\n\nContributions are very welcome! Please refer to guidelines described in the [contributing guide](https://github.com/expo/expo#contributing).\n"
+  },
+  "artifacts": [],
+  "remote": {
+    "resolved": "https://registry.yarnpkg.com/expo-device/-/expo-device-4.0.3.tgz#da2229f1e5a38c795c9b8a023e65d520d327d4e5",
+    "type": "tarball",
+    "reference": "https://registry.yarnpkg.com/expo-device/-/expo-device-4.0.3.tgz",
+    "hash": "da2229f1e5a38c795c9b8a023e65d520d327d4e5",
+    "integrity": "sha512-T04QT90wHYMt+YcyartCez1QF94KPV39LdWbcU00hE5V/tVgUT1Wv3g7p0T2suWeoWRPdgIT9LOlO+DXjIPqWA==",
+    "registry": "npm",
+    "packageName": "expo-device",
+    "cacheIntegrity": "sha512-T04QT90wHYMt+YcyartCez1QF94KPV39LdWbcU00hE5V/tVgUT1Wv3g7p0T2suWeoWRPdgIT9LOlO+DXjIPqWA== sha1-2iIp8eWjjHlcm4oCPmXVINMn1OU="
+  },
+  "registry": "npm",
+  "hash": "da2229f1e5a38c795c9b8a023e65d520d327d4e5"
+}
